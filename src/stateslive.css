@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.tablehead {
+    background-color: black;
+    color: white;
+    font-size: 3vh;
+}
+
+.tablebody {
+    background-color: white;
+    color: black;
+    font-size: 2vh;
+}
+
+th {
+    height: 6vh;
+}
+
+td {
+    height: 3vh;
+    padding-left: 1.5vw;
+    padding-top: 0.7vh;
+    /* padding-bottom: 1vh; */
+}
+
+.maintable {
+    margin-left: 8vw;
+    margin-top: 6vh;
+    background-color: white;
+    table-layout: auto;
+    width: 82vw;
+}
+
+.table_row:hover {
+    background-color: rgb(207, 195, 195);
+
+}
+
+.confirmed:hover {
+    background-color: rgb(172, 183, 87);
+}
+
+.recovered:hover {
+    background-color: rgb(85, 190, 104);
+}
+
+.deaths:hover {
+    background-color: rgb(177, 64, 64);
+
+}
+
+.active:hover {
+    background-color: rgb(106, 106, 196);
+
+}
+
+.lastupdatedtime:hover {
+    background-color: rgb(102, 162, 181);
+
+}
+
+.heading3 {
+    color: white;
+    text-align: center;
+}
